@@ -18,6 +18,15 @@
 
 `npm run browserify`
 
+### Dependencies:
+####To use within browser based application:
+  1. PouchDB Version 5.0.0 - to use with browser (COMMAND: bower install pouchdb#5.0.0 --save)
+
+####To use in a Cordova based Android application: 
+  1. Couchbase Lite plugin Version 1.2.1 - to use within Cordova application (COMMAND: cordova plugin add https://github.com/couchbaselabs/Couchbase-Lite-PhoneGap-Plugin.git@1.2.1)
+  2. Add dao.jar into your CLASSPATH and its order should be first in loading jars. (See "Orders and Exports" tab in Eclipse Java Build Path)
+
+
 ### How to install the repo for development work:
 
 1. First clone the repo
